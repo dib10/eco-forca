@@ -1,0 +1,123 @@
+/* estilo.css */
+
+body {
+    background-image: url("../Imagens/floresta.jpg"); 
+    background-size: cover;
+    font-family: 'Arial', sans-serif;
+    color: #fff;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+
+h1 {
+    font-size: 36px;
+    margin-top: 20px;
+    color: #cee807;
+}
+
+.game {
+    background-color: hsl(95, 42%, 31%);
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    width: 800px;
+    margin: 0 auto;
+}
+
+.game p {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.game form {
+    margin-top: 20px;
+}
+
+.game label {
+    font-size: 20px;
+    color: #eaeaea;
+}
+
+.game input[type="text"] {
+    width: 40px;
+    height: 40px;
+    font-size: 24px;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0 5px;
+    border: none;
+    border-radius: 5px;
+}
+
+.game input[type="submit"] {
+    background-color: hsl(51, 91%, 9%);
+    color: #fff;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.game input[type="submit"]:hover {
+    background-color: hsl(50, 93%, 17%);
+}
+
+
+
+.dica {
+    display: none;
+    position: absolute;
+    left: -210px; /* Posição à esquerda para ocultar inicialmente */
+    top: 10px;
+    background-color: #fff;
+    border: 1px solid #000;
+    border-radius: 5px;
+    padding: 5px;
+    width: 200px;
+    cursor: pointer; /* Altera o cursor para indicar que a dica é clicável */
+}
+.nivel-texto {
+    margin-right: 200px; /* Ajuste o valor conforme necessário para controlar a posição */
+}
+
+.ecoforca-title {
+    background-image: url("../img/EcoForca\ \(2\).png"); /* Substitua pelo caminho da sua imagem de fundo */
+    background-size: contain; /* Isso ajusta a imagem para caber inteiramente no título */
+    background-repeat: no-repeat; /* Impede a repetição da imagem */
+    color: transparent; /* Torna o texto transparente para que a imagem seja visível */
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    height: 100px; /* Ajuste a altura conforme necessário */
+    line-height: 100px; /* Ajuste a linha central conforme necessário */
+    font-size: 24px; /* Ajuste o tamanho da fonte conforme necessário */
+     margin-left: 550px; /* Mova 20 pixels para a direita */
+
+}
+
+.pontuacao p {
+    border: 2px solid #9e8b83;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: #9e8b83;
+    display: inline-block;
+}
+
+.pontuacao p span {
+    background-color: transparent;
+}
+.menu-inicial-button {
+    display: inline-block;
+    background-color: #007bff;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+
+
+

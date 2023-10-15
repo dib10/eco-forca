@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+
+body {
+    min-height: 100vh;
+    width: 100%;
+    background: url("../Imagens/floresta.jpg"), lightgray;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.moldura {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("../Imagens/moldura.png");
+    background-size: 100% 100%;
+    z-index: 0;
+}
+
+.placa {
+    background-image: url("../Imagens/placa_de_jogar.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 500px;
+    position: absolute;
+    bottom: 0;
+    z-index: -1;
+}
+
+h1.title {
+    text-align: center;
+    font-family: 'Luckiest Guy', sans-serif;
+    font-size: 450%;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    background: linear-gradient(180deg, #FFC804 0%, #FF9102 44.27%, #FF4D00 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 4px black;
+    -webkit-text-stroke-width: 4px;
+    -webkit-text-stroke-color: black;
+    position: absolute;
+    top: 39%;
+    left: 49%;
+    transform: translate(-50%, -50%) rotate(-1.5deg);
+    z-index: 2;
+}
+
+h1.title span {
+    background: linear-gradient(180deg, #1AFF15 0%, rgba(6, 255, 1, 0.90) 0.01%, #05FF00 0.02%, #105105 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+a.jogar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 50px;
+    color: #000;
+    font-family: 'Luckiest Guy', sans-serif;
+    font-size: 55px;
+    text-decoration: none;
+    margin-top: 20px;
+    z-index: 2;
+    position: absolute;
+    bottom: 29%;
+    left: 41%;
+    transform: rotate(3deg);
+}
+
+a.jogar:hover {
+    color: #fff;
+}
+
+.menu {
+    background-image: url("../Imagens/placa_de_menu.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 500px;
+    position: absolute;
+    top: 0;
+    z-index: -1;
+}
+
+h1.modos {
+    text-align: center;
+    font-family: 'Luckiest Guy', sans-serif;
+    font-size: 320%;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    background: linear-gradient(180deg, #FFF 39.06%, #6D6D6D 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 4px black;
+    -webkit-text-stroke-width: 4px;
+    -webkit-text-stroke-color: black;
+    position: absolute;
+    top: 11%;
+    z-index: 2;
+}
+
+a.solo {
+    text-align: center;
+    font-family: 'Luckiest Guy', sans-serif;
+    font-size: 450%;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    background: linear-gradient(180deg, #9EFF00 0%, #6BD200 38.54%, #289901 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 4px black;
+    -webkit-text-stroke-width: 4px;
+    -webkit-text-stroke-color: black;
+    position: absolute;
+    top: 33%;
+    z-index: 2;
+    text-decoration: none;
+}
+
+a.solo:hover {
+    transform: rotate(-2deg);
+    text-decoration: none;
+}
+
+a.contra {
+    text-align: center;
+    font-family: 'Luckiest Guy', sans-serif;
+    font-size: 450%;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    background: linear-gradient(180deg, #F00 0%, #F00 33.85%, #400 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 4px black;
+    -webkit-text-stroke-width: 4px;
+    -webkit-text-stroke-color: black;
+    position: absolute;
+    top: 53%;
+    z-index: 2;
+    text-decoration: none;
+}
+
+a.contra:hover {
+    transform: rotate(1.5deg);
+    text-decoration: none;
+}
