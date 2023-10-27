@@ -1,7 +1,7 @@
 /* estilo.css */
 
 body {
-    background-image: url("../Imagens/floresta.jpg"); 
+    background-image: url("../img/floresta3.jpeg"); /*fundo do jogo*/ 
     background-size: cover;
     font-family: 'Arial', sans-serif;
     color: #fff;
@@ -10,12 +10,6 @@ body {
     padding: 0;
 }
 
-
-h1 {
-    font-size: 36px;
-    margin-top: 20px;
-    color: #cee807;
-}
 
 .game {
     background-color: hsl(95, 42%, 31%);
@@ -94,7 +88,7 @@ h1 {
     height: 100px; /* Ajuste a altura conforme necessário */
     line-height: 100px; /* Ajuste a linha central conforme necessário */
     font-size: 24px; /* Ajuste o tamanho da fonte conforme necessário */
-     margin-left: 550px; /* Mova 20 pixels para a direita */
+    margin-left: 550px; /* Mova 20 pixels para a direita */
 
 }
 

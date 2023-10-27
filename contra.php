@@ -27,7 +27,7 @@
         
         <?php
 
-    
+
         session_start(); // Inicializa a sessão para rastrear o estado do jogo
 
         // Array associativo de palavras relacionadas ao meio ambiente e suas dicas

@@ -3,7 +3,7 @@
 body {
     min-height: 100vh;
     width: 100%;
-    background: url("../Imagens/floresta.jpg"), lightgray;
+    background: url("../img/floresta3.jpeg"), lightgray;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -28,7 +28,7 @@ body {
 }
 
 .placa {
-    background-image: url("../Imagens/placa_de_jogar.png");
+    background-image: url("../Imagens/placa_de_jogar_compressed-removebg-preview.png");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -64,12 +64,13 @@ h1.title {
     z-index: 2;
 }
 
-h1.title span {
+h1.title span.eco {
     background: linear-gradient(180deg, #1AFF15 0%, rgba(6, 255, 1, 0.90) 0.01%, #05FF00 0.02%, #105105 100%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+
 
 a.jogar {
     display: flex;
