@@ -4,11 +4,11 @@
     <title>Ecoforca</title>
     <link rel="icon" href="img/monkey.png" type="image/x-icon">
     <link rel="stylesheet" type="text/css" href="estilo/css.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="UTF-8">
 </head>
 <body>
 <h1 class="ecoforca-title">EcoForca</h1>
-
 <div id="jogo" class="game">
     <?php
     session_name("EcoForcaSolo");
@@ -147,7 +147,7 @@
             echo "<form method='post'>";
             echo "<label for='letra'>Adivinhe uma letra:</label> ";
             echo "<input type='text' name='letra' id='letra' maxlength='1'>";
-            echo "<input type='submit' value='Adivinhar'>";
+            echo "<input id='jogo' type='submit' value='Adivinhar'>";
             echo "</form>";
             echo "<br>";
             echo "<a href='index.html' style='background-color: hsl(51, 91%, 9%); color: #fff; font-size: 20px; border: none; border-radius: 5px; padding: 10px 20px; cursor: pointer; text-decoration: none;'>Menu Inicial</a>";

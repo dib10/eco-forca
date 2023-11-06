@@ -13,11 +13,15 @@ body {
 
 .game {
     background-color: hsl(95, 42%, 31%);
+    background-size: cover;
     border-radius: 10px;
-    padding: 20px;
+    padding: 5%;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
     width: 800px;
     margin: 0 auto;
+    
+   
+    
 }
 
 .game p {
@@ -77,20 +81,23 @@ body {
     margin-right: 200px; /* Ajuste o valor conforme necessário para controlar a posição */
 }
 
+.container {
+    text-align: center; /* Centraliza o conteúdo horizontalmente */
+}
+
 .ecoforca-title {
-    background-image: url("../img/EcoForca\ \(2\).png"); /* Substitua pelo caminho da sua imagem de fundo */
-    background-size: contain; /* Isso ajusta a imagem para caber inteiramente no título */
-    background-repeat: no-repeat; /* Impede a repetição da imagem */
-    color: transparent; /* Torna o texto transparente para que a imagem seja visível */
-    text-align: center;
-    margin: 0;
+    background-image: url("../img/EcoForca\ \(2\).png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    color: transparent;
     padding: 0;
-    height: 100px; /* Ajuste a altura conforme necessário */
-    line-height: 100px; /* Ajuste a linha central conforme necessário */
-    font-size: 24px; /* Ajuste o tamanho da fonte conforme necessário */
-    margin-left: 550px; /* Mova 20 pixels para a direita */
+    height: 100px;
+    line-height: 100px;
+    font-size: 100px; /* Aumente o tamanho da fonte conforme necessário */
+    display: inline-block;
 
 }
+
 
 .pontuacao p {
     border: 2px solid #9e8b83;
@@ -111,6 +118,9 @@ body {
     border-radius: 5px;
     text-decoration: none;
 }
+
+
+
 
 
 

@@ -27,21 +27,6 @@ body {
     z-index: 0;
 }
 
-.placa {
-    background-image: url("../Imagens/placa_de_jogar_compressed-removebg-preview.png");
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 50%;
-    height: 500px;
-    position: absolute;
-    bottom: 0;
-    z-index: -1;
-}
 
 h1.title {
     text-align: center;
@@ -71,14 +56,14 @@ h1.title span.eco {
     -webkit-text-fill-color: transparent;
 }
 
-
-a.jogar {
+/* Estilos para a classe .jogar (sem hover) */
+.jogar {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 200px;
     height: 50px;
-    color: #000;
+    color: #ffffff;
     font-family: 'Luckiest Guy', sans-serif;
     font-size: 55px;
     text-decoration: none;
@@ -86,13 +71,15 @@ a.jogar {
     z-index: 2;
     position: absolute;
     bottom: 29%;
-    left: 41%;
-    transform: rotate(3deg);
+    left: 50%; /* Ajuste a posição horizontal para o centro */
+    transform: translateX(-50%) rotate(3deg); /* Centraliza horizontalmente */
 }
 
-a.jogar:hover {
+/* Estilos para o efeito de hover */
+.jogar:hover {
     color: #fff;
 }
+
 
 .menu {
     background-image: url("../Imagens/placa_de_menu.png");
